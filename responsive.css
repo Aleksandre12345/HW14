@@ -1,0 +1,221 @@
+@media (width > 768px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header {
+        position: relative;
+        width: 768px;
+    }
+    .tabletmultiplecolors {
+        display: block;
+        position: absolute;
+        left: 69%;
+        z-index: 1;
+    }
+    .blueoval {
+        display: none;
+    }
+    .yellowoval {
+        display: none;
+    }
+
+
+    .tabletoval1{
+        position: absolute;
+        display: block;
+    }
+    .tabletoval2{
+        position: absolute;
+        display: block;
+        left: 20%;
+        bottom: 6%;
+    }
+    .tabletoval3{
+        position: absolute;
+        display: block;
+        left: 27%;
+        top: 30%;
+
+    }  
+    h1 {
+        width: 520px;
+        height: 192px;
+        color: #191826;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 64px;
+    }
+    h5 {
+        width: 514px;
+        height: 112px;
+        color: #191826;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    .bluebc {
+        width: 696px;
+        height: 600px;
+    }
+    .mobile {
+        width: 270px;
+        height: 556px;
+        left: 12%;
+    }
+    .mobilebc {
+        left: 35%;
+    }
+    .orangebc {
+        width: 399px;
+        height: 546px;
+        top: 116%;
+        left: 35%;
+    }
+    footer {
+        width: 696px;
+        height: 143px;
+    }
+    .equalizer1{
+        margin-left: -5px;
+    }
+    .footertxt {
+        margin-left: -5px;
+    }
+    .icons {
+        position: absolute;
+        left: 80%;
+        bottom: 59%;
+    }
+    .tabletmultiplecolors1 {
+        display: none;
+    }
+    
+}
+
+@media (width > 1440px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header {
+        position: relative;
+        width: 1440px;
+        height: 100vh;
+    }
+    .tabletmultiplecolors {
+        display: none;
+    }
+    .tabletmultiplecolors1 {
+        position: absolute;
+        display: block;
+        left: 78%;
+    }
+    .tabletoval1{
+        position: absolute;
+        display: block;
+    }
+    .tabletoval2{
+        position: absolute;
+        display: block;
+        left: 48%;
+        bottom: 26%;
+    }
+    .tabletoval3{
+        position: absolute;
+        display: block;
+        left: 50%;
+        top: 20%;
+
+    }  
+    .equalizer{
+        margin-left: 155px;
+    }
+    h1 {
+        width: 1015px;
+        height: 176px;
+        font-size: 88px;
+        font-weight: 700;
+        line-height: 88px;
+        margin-left: 155px;
+    }
+    h5 {
+        width: 825px;
+        height: 102px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 34px;
+        margin-left: 155px;
+    }
+
+    .bluebc {
+        width: 1110px;
+        height: 600px;
+    }
+    .mobile {
+        width: 280px;
+        height: 606px;
+        left: 19%;
+        top: 88%;
+    }
+    .mobilebc {
+        left: 33%;
+        top: 112%;
+    }
+    .orangebc {
+        width: 446px;
+        height: 625px;
+        top: 129%;
+        left: 48%;
+    }
+    h2{
+        width: 333px;
+        height: 52px;
+        font-size: 40px;
+        line-height: 52px;
+        font-weight: 700;
+    }
+    h4 {
+        width: 333px;
+        height: 170px;
+    }
+    .dollar4 {
+        margin-top: -6px;
+    }
+    .button1 {
+        width: 333px;
+        height: 61px;
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+    .button2 {
+        width: 333px;
+        height: 61px;
+        margin-left: 55px;
+    }
+    footer {
+        width: 1440px;
+    }
+    .equalizer1{
+        position: absolute;
+        bottom: 135%;
+        margin-left: 155px;
+    }
+    .footertxt {
+        position: absolute;
+        bottom: 95%;
+        left: 30%;
+    }
+    .icons {
+        position: absolute;
+        left: 80%;
+        bottom: 78%;
+    }
+    
+}
+
+
+

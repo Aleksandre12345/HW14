@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Sans:wght@400;700&family=Karla:wght@400;700&display=swap');
+
+* , * ::before *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+    flex-direction: column;
+    font-family: 'IBM Plex Sans';
+}
+
+header {
+    position: relative;
+    width: 375px;
+    margin-top: -8px;
+}
+.blueoval {
+    position: absolute;
+    left: 7%;
+}
+.yellowoval {
+    position: absolute;
+    left: 7%;
+    top: 5%;
+}
+
+.equalizer {
+    display: flex;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-left: 25px;
+}
+h1 {
+    width: 327px;
+    color: #191826;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-left: 25px;
+    margin-top: 60px;
+}
+h5 {
+    width: 327px;
+    color: #191826;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 25px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 130px;
+}
+.bluebc {
+    position: relative;
+    width: 375px;
+    height: 600px;
+    background-color: #191826;
+    border-radius: 12px;
+}
+.mobile {
+    position: absolute;
+    top: 75%;
+    z-index: 2;
+}
+.mobilebc{
+    position: absolute;
+    top: 88%;
+}
+.orangebc {
+    position: absolute;
+    width: 375px;
+    height: 546px;
+    background-color: #FA7453;
+    border-radius: 12px;
+    top: 141%;
+    z-index: 2;
+}
+
+h2 {
+    width: 302px;
+    color: #FCFAF9;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-left: 32px;
+    margin-top: 48px;
+}
+h4 {
+    width: 302px;
+    color: #FCFAF9;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 32px;
+    margin-top: -10px;
+}
+.dollar4 {
+    display: flex;
+    align-items: center;
+    color: #FCFAF9;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-left: 35px;
+    margin-top: 45px;
+}
+.dollarspan {
+    color: #FCFAF9;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 17px;
+}
+.button1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 296px;
+    height: 61px;
+    background-color:  #191826;
+    border-radius: 12px;
+    margin-left: 35px;
+    margin-top: -32px;
+    border: none;
+}
+.Download {
+    color: #FCFAF9;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.button2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 296px;
+    height: 61px;
+    background-color:  #FCFAF9;
+    border-radius: 12px;
+    margin-left: 35px;
+    margin-top: 17px;
+    border: none;
+}
+.Download1{
+    color: #191826;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+footer {
+    width: 375px;
+    position: absolute;
+    top: 250%;
+}
+
+.equalizer1 {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-left: 25px;
+    margin-top: -170px;
+}
+
+.footertxt {
+    width: 327px;
+    height: 105px;
+    color: #191826;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 25px;
+    margin-top: 45px;
+}
+.footeremail {
+    font-weight: 700;
+}
+
+.icons {
+    margin-top: 60px;
+    margin-left: 26px;
+    padding-bottom: 90px;
+}
+
+.button1:hover {
+    background-color: #66E2DC;
+}
+.button2:hover {
+    background-color: #FFB964;
+}
+
+.tabletmultiplecolors {
+    display: none;
+}
+.tabletmultiplecolors1 {
+    display: none;
+}
+.tabletoval1{
+    display: none;
+}
+.tabletoval2{
+    display: none;
+}
+.tabletoval3{
+    display: none;
+}
+
